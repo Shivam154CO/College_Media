@@ -264,13 +264,13 @@ const Home = () => {
     },
     {
       id: 4,
-      username: "Emily",
+      username: "Bantai",
       avatar: "https://placehold.co/80x80/6366F1/FFFFFF?text=E",
       hasStory: true,
     },
     {
       id: 5,
-      username: "James",
+      username: "James Bhai",
       avatar: "https://placehold.co/80x80/8B5CF6/FFFFFF?text=J",
       hasStory: true,
     },
@@ -604,7 +604,7 @@ const Home = () => {
                               </div>
                               <div>
                                 <p className="font-medium text-gray-900">Twitter</p>
-                                <p className="text-xs text-gray-500">Tweet this post</p>
+                                <p className="text-xs text-gray-500">Tweet this</p>
                               </div>
                             </button>
 
@@ -644,7 +644,7 @@ const Home = () => {
                                 <p className="font-medium text-gray-900">
                                   {copiedLink === post.id ? 'Link Copied!' : 'Copy Link'}
                                 </p>
-                                <p className="text-xs text-gray-500">Copy post URL</p>
+                                <p className="text-xs text-gray-500">Copy post</p>
                               </div>
                             </button>
                           </div>
@@ -672,10 +672,9 @@ const Home = () => {
                 </button>
               </div>
 
-              {/* ===== COMMENTS SECTION ===== */}
               {showComments[post.id] && (
                 <div className="mt-6 pt-6 border-t border-gray-100">
-                  <h4 className="font-semibold text-gray-900 mb-4">Comments ({post.comments})</h4>
+                  <h4 className="font-semibold text-gray-900 mb-4">Commentss ({post.comments})</h4>
                   
                   {/* Sample Comments */}
                   <div className="space-y-4 mb-4">
@@ -711,7 +710,6 @@ const Home = () => {
                     ))}
                   </div>
 
-                  {/* Add Comment Form */}
                   <div className="flex space-x-3">
                     <img
                       src="https://placehold.co/32x32/6366F1/FFFFFF?text=ME"
